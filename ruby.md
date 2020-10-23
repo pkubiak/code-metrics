@@ -15,6 +15,7 @@ Meta-tool integrating results of many metrics tools into single report.
 
 - **Metrics:** Integrate reports from `churn`, `cane`, `flay`, `roodi`, `saikuro`, `flog`, `reek`, `hotspots`, `rails_best_practices` (https://github.com/metricfu/metric_fu/wiki/Code-Tools)
 - **Sample report:** https://metricfu.github.io/metric_fu/old_index.html
+- **Output:** `HTML`, `yaml`
 
 
 ### rubycritic ###
@@ -22,8 +23,8 @@ https://github.com/whitesmith/rubycritic
 
 RubyCritic is a gem that wraps around static analysis gems such as Reek, Flay and Flog to provide a quality report of your Ruby code.
 
-- **Metrics:**
-
+- **Metrics:** Integrate: `flay`, `flog`, `reek`, `complexity`, `churn`, `simple_cov` (`Churn`, `complexity`, `code smells`, `duplication score`) 
+- **Output:** `HTML`, `json`
 
 ### RuboCop ###
 https://github.com/rubocop-hq/rubocop
