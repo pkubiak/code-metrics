@@ -1,8 +1,9 @@
 # Ruby Code metrics #
 
 Sources:
-- https://github.com/search?q=metrics&type=topics
 - https://github.com/metricfu/metric_fu/wiki/Code-Tools
+- https://www.ruby-toolbox.com/categories/code_metrics
+- https://github.com/search?q=metrics&type=topics
 
 
 ## metric-fu ##
@@ -22,7 +23,25 @@ the community Ruby Style Guide. Apart from reporting the problems discovered in 
 
 **Metrics:** ABCSize, CyclomaticComplexity, Block/Method Length, PerceivedComplexity, ... (https://docs.rubocop.org/rubocop/cops_metrics.html)
 
+
+### rubycritic ###
+https://github.com/whitesmith/rubycritic
+
+RubyCritic is a gem that wraps around static analysis gems such as Reek, Flay and Flog to provide a quality report of your Ruby code.
+
+**Metrics:**
+
+
 ---
+
+
+### reek ###
+https://github.com/troessner/reek
+
+Reek is a tool that examines Ruby classes, modules and methods and reports any code smells it finds.
+
+**Metrics:** Code smells 
+
 
 ### flay ###
 https://github.com/seattlerb/flay
