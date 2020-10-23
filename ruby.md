@@ -22,6 +22,7 @@ the community Ruby Style Guide. Apart from reporting the problems discovered in 
 
 **Metrics:** ABCSize, CyclomaticComplexity, Block/Method Length, PerceivedComplexity, ... (https://docs.rubocop.org/rubocop/cops_metrics.html)
 
+---
 
 ### flay ###
 https://github.com/seattlerb/flay
