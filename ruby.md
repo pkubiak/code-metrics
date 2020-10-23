@@ -34,10 +34,17 @@ the community Ruby Style Guide. Apart from reporting the problems discovered in 
 (buildin cops: https://docs.rubocop.org/rubocop/cops.html). 
 
 - **Metrics:** ABCSize, CyclomaticComplexity, Block/Method Length, PerceivedComplexity, ... (https://docs.rubocop.org/rubocop/cops_metrics.html)
-- **Output:** `plaintext`, `json`
+- **Output:** `plaintext`, `json` (raw metrics are not availabe)
 
 
 # Standalone tools #
+
+### flog ###
+https://github.com/seattlerb/flog
+
+Flog reports the most tortured code in an easy to read pain report. The higher the score, the more pain the code is in.
+
+- **Metrics:** `pain score`
 
 ### reek ###
 https://github.com/troessner/reek
