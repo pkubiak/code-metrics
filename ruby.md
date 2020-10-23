@@ -31,9 +31,10 @@ https://github.com/rubocop-hq/rubocop
 
 RuboCop is a Ruby static code analyzer (a.k.a. linter) and code formatter. Out of the box it will enforce many of the guidelines outlined in
 the community Ruby Style Guide. Apart from reporting the problems discovered in your code, RuboCop can also automatically fix many of them for you.
-(buildin cops: https://docs.rubocop.org/rubocop/cops.html)
+(buildin cops: https://docs.rubocop.org/rubocop/cops.html). 
 
 - **Metrics:** ABCSize, CyclomaticComplexity, Block/Method Length, PerceivedComplexity, ... (https://docs.rubocop.org/rubocop/cops_metrics.html)
+- **Output:** `plaintext`, `json`
 
 
 # Standalone tools #
